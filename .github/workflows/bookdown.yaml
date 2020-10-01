@@ -39,7 +39,7 @@ jobs:
 
       - name: Install packages
         run: |
-          R -e 'install.packages(c("remotes","knitr","ragg","renv","bookdown"))'
+          R -e 'install.packages(c("remotes","knitr","ragg","renv","bookdown", "hrbrthemes"))'
           R -e 'renv::restore()'
 
       - name: Build site
