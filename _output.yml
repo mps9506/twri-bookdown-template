@@ -1,4 +1,6 @@
 bookdown::gitbook:
+  number_sections: FALSE
+  split_bib: FALSE
   css: style.css
   includes:
     after_body: footer.html
