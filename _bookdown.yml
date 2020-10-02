@@ -2,3 +2,4 @@ new_session: yes
 output_dir: "docs" # for gh-pages
 rmd_files: ["index.Rmd"]
 book_filename: "index.Rmd"
+delete_merged_file: true
